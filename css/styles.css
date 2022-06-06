@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Prompt:wght@400;600&family=Sacramento&display=swap');
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* HTML component selectors */
+h1 {
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+/* ID selectors */
+#title {
+  min-height: 100vh;
+  background-color: #FF4C68;
+  overflow: hidden;
+}
+
+#features {
+  padding: 15% 0%;
+  text-align: center;
+}
+
+/* Class selectors */
+
+/* Navigation */
+.navbar {
+  padding: 5%;
+}
+
+.navbar-brand {
+  color: white;
+  text-transform: lowercase;
+  font-family: 'Merriweather', serif;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.nav-item {
+  padding: 0 1.5em;
+  margin-top: .7em;
+}
+
+/* Title */
+.title-container h1 {
+  color: white;
+  /* margin-top: 25%; */
+}
+
+.title-container img {
+  /* float: left; */
+  /* max-height: 80vh; */
+  /* float: right; */
+  padding-bottom: 5em;
+  /* transform:  */
+  transform: rotate(20deg);
+  margin-top: 5%;
+}
+
+.title-container img:hover {
+  transform: rotate(-10deg) scale(1.2);
+  transition: all 750ms ease-in;
+}
+
+/* Features */
+.feature-box i {
+  font-size: 3.5rem;
+  color: #cf8172;
+}
+
+.feature-box i:hover {
+  color: #ff4c68;
+  transform: scale(1.2);
+  transition: all 375ms;
+}
+
+.feature-box h3 {
+  font-size: 1.5rem;
+  font-weight: 800;
+  padding-top: .5rem;
+}
+
+.feature-box p {
+  color: #8f8f8f;
+}
